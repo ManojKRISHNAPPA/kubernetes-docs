@@ -87,6 +87,13 @@ You can follow same procedure in the official  AWS document [Getting started wit
    ```
 3. Creating nodegroup
 ```
-eksctl create nodegroup --cluster microdegree-cluster --name large-workers --nodes 2 --nodes-min=2 --nodes-max=4 --region us-west-2
+    eksctl create nodegroup \
+      --cluster microdegree-cluster \
+      --name large-workers-1 \
+      --nodes 2 \
+      --nodes-min 2 \
+      --nodes-max 2 \
+      --node-type m7i-flex.large \
+      --region us-west-2
 ```
 
