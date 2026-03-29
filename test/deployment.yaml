@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: boardshackk-deployment
-  namespace: board
   labels:
     app: boardshackk
 spec:
