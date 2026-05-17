@@ -54,14 +54,14 @@ You can follow same procedure in the official  AWS document [Getting started wit
    --zones <AZ-1>,<AZ-2>
    
    example:
-   eksctl create cluster --name microdegree \
+   eksctl create cluster --name quantam-cluster \
    --region us-east-1 \
    --node-type t2.small \
     ```
 
 6. To delete the EKS clsuter 
    ```sh 
-   eksctl delete cluster itkannadigaru --region ap-northeast-1
+   eksctl delete cluster quantam-cluster --region ap-northeast-1
    ```
    
 7. Validate your cluster using by creating by checking nodes and by creating a pod 
