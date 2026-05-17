@@ -55,8 +55,10 @@ You can follow same procedure in the official  AWS document [Getting started wit
    
    example:
    eksctl create cluster --name quantam-cluster \
-   --region us-east-1 \
-   --node-type t2.small \
+   --region ap-northeast-1  \
+   --node-type t2.medium \
+   --nodes-min 3 \
+   --nodes-max 5
     ```
 
 6. To delete the EKS clsuter 
