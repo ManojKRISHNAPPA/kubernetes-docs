@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: boardshackk
-        image: manojkrishnappa/boardshackk:latest
+        image: manojkrishnappa/itkannadigaru-chat-bot:0fa7c6edd7d87075ed2db8a5e3560dd25de234c2
         ports:
         - containerPort: 8080
         # Add other configurations as needed, e.g., environment variables, volume mounts
